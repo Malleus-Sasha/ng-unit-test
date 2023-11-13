@@ -1,0 +1,6 @@
+<p>show-size works!</p>
+<input type="text" name="size" id="size" #inputSize>
+<button (click)="sizeValue=inputSize.value">Enter</button>
+<div class="text-size">
+  size: <span>{{ sizeText | fileSize }}</span>
+</div>

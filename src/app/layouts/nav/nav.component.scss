@@ -1,0 +1,29 @@
+:host {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  // background: $c01;
+  // background: $lib-test-color;
+  background: var(--c2);
+}
+
+nav {
+  display: flex;
+  font-weight: 600;
+}
+
+a {
+  padding: 7px;
+  color: var(--c9);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.logo {
+  font-size: 40px;
+  line-height: 1em;
+  padding: 0 16px;
+}

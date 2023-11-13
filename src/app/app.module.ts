@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavComponent } from './layouts/nav/nav.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
+// import { FileSizePipe } from './pipes/file-size/file-size.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    FooterComponent,
+    SpinnerComponent,
+    // FileSizePipe,
   ],
   imports: [
     BrowserModule,
