@@ -41,8 +41,8 @@ export class StockCounterComponent {
 
   onKeyUp(event: KeyboardEvent) {
     let handlers: Some<()=> void> = {
-      'ArrowDown': () => this.decrement(),
-      'ArrowUp': () => this.increment()
+      ArrowDown: () => this.decrement(),
+      ArrowUp: () => this.increment()
     };
 
     if (handlers[event.code]) {
