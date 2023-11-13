@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './layouts/nav/nav.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { MenuComponent } from './layouts/menu/menu.component';
 // import { FileSizePipe } from './pipes/file-size/file-size.pipe';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     NavComponent,
     FooterComponent,
     SpinnerComponent,
+    MenuComponent,
     // FileSizePipe,
   ],
   imports: [
