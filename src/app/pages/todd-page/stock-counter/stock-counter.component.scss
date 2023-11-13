@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+}
+
+.stock-counter {
+  display: flex;
+  padding: 3px;
+  border: 1px solid var(--c1);
+  border-radius: 4px;
+
+  &:focus {
+    border-color: var(--c8);
+  }
+}
+
+.stock-value {
+  padding: 0 7px;
+}

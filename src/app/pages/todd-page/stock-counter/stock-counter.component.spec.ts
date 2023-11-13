@@ -18,4 +18,23 @@ describe('StockCounterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should increment correctly', () => {
+    component.increment();
+    expect(component.value).toBe(1);
+  });
+
+  it('should decrement correctly', () => {
+    component.increment();
+    component.decrement();
+    expect(component.value).toBe(0);
+  })
+
+  it('should no increment below the maximum value', () => {
+    for(let i = 0; i < 110; i++) {
+      component.increment();
+    }
+    expect(component.value).toBe(100);
+  })
+
 });
