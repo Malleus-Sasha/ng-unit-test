@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StockCounterComponent } from './stock-counter.component';
+import { CounterComponent } from './counter.component';
 import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
 
 describe('StockCounterComponent', () => {
-  let component: StockCounterComponent;
-  let fixture: ComponentFixture<StockCounterComponent>;
+  let component: CounterComponent;
+  let fixture: ComponentFixture<CounterComponent>;
   let el: DebugElement;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [StockCounterComponent]
+      declarations: [CounterComponent]
     });
-    fixture = TestBed.createComponent(StockCounterComponent);
+    fixture = TestBed.createComponent(CounterComponent);
     component = fixture.componentInstance;
     el = fixture.debugElement;
     fixture.detectChanges();

@@ -5,11 +5,11 @@ interface Some<T> {
 }
 
 @Component({
-  selector: 'app-stock-counter',
-  templateUrl: './stock-counter.component.html',
-  styleUrls: ['./stock-counter.component.scss']
+  selector: 'app-counter',
+  templateUrl: './counter.component.html',
+  styleUrls: ['./counter.component.scss']
 })
-export class StockCounterComponent {
+export class CounterComponent {
   @Input() step: number = 1;
   @Input() min: number = 0;
   @Input() max: number = 100;

@@ -1,7 +1,7 @@
 export interface Product {
   id: number,
   price: number,
-  name: string
+  name: string,
 }
 
 export interface Item {
