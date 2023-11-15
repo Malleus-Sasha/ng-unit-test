@@ -7,6 +7,7 @@ import { NavComponent } from './layouts/nav/nav.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { MenuComponent } from './layouts/menu/menu.component';
+// import { CreditCardDirective } from './directives/credit-card/credit-card.directive';
 // import { FileSizePipe } from './pipes/file-size/file-size.pipe';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { MenuComponent } from './layouts/menu/menu.component';
     FooterComponent,
     SpinnerComponent,
     MenuComponent,
+    // CreditCardDirective,
     // FileSizePipe,
   ],
   imports: [

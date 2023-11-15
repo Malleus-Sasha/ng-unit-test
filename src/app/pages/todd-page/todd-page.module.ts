@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { StockSelectorComponent } from './stock-inventory/components/stock-selector/stock-selector.component';
 import { StockCounterComponent } from './stock-inventory/components/stock-counter/stock-counter.component';
 import { CounterComponent } from './counter/counter.component';
+import { CreditCardDirective } from 'src/app/directives/credit-card/credit-card.directive';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { CounterComponent } from './counter/counter.component';
     StockBranchComponent,
     StockProductsComponent,
     StockSelectorComponent,
+    CreditCardDirective,
   ],
   imports: [
     CommonModule,

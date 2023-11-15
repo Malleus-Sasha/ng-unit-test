@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { StockInventoryComponent } from './stock-inventory.component';
-import { DebugElement } from '@angular/core';
+import { DebugElement, NO_ERRORS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StockBranchComponent } from '../../components/stock-branch/stock-branch.component';
 import { StockCounterComponent } from '../../components/stock-counter/stock-counter.component';
@@ -49,7 +49,8 @@ describe('StockInventoryComponent', () => {
       ],
       providers: [
         { provide: StockInventoryService, useClass: MockInventoryService },
-      ]
+      ],
+      schemas: [NO_ERRORS_SCHEMA],
     });
     fixture = TestBed.createComponent(StockInventoryComponent);
     component = fixture.componentInstance;
